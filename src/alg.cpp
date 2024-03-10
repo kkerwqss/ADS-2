@@ -7,7 +7,6 @@ double pown(double value, uint16_t n) {
         return 1;
     else
         return value * pown(value, n-1);
-    
 }
 
 uint64_t fact(uint16_t n) {
